@@ -1,0 +1,21 @@
+{
+    "name": "samuel/buscador-cursos",
+    "description": "estudo do curso de composer - projeto Buscador de cursos.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Samuel\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sfbdata",
+            "email": "sfb.geral@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/dom-crawler": "^6.0",
+        "symfony/css-selector": "^6.2"
+    }
+}
